@@ -1,0 +1,4 @@
+-- Comandos para GRANT y creacion de usuarios
+CREATE USER edeluz IDENTIFIED BY edeluz12345;
+GRANT CONNECT, RESOURCE, DBA TO edeluz;
+GRANT CREATE SESSION, GRANT ANY PRIVILEGE TO edeluz; 
